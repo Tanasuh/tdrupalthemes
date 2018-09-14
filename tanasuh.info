@@ -1,0 +1,96 @@
+name = Tanasuh Theme
+description = By Wazer IT LLC.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[home_featured_article]     = 'home featured article'
+regions[home_top_full]     = 'home top full'
+regions[home_right_side]     = 'home right side'
+regions[home_left_side]     = 'home left side'
+regions[home_bottom_full]     = 'home bottom full'
+
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+regions[search]    = 'search field'
+regions[sub_content]    = 'sub_content'
+regions[video_series]    = 'video series'
+regions[sub_header]    = 'sub header'
+regions[footer_slider]    = 'footer slider'
+regions[bredcumb]    = 'bredcumb'
+regions[last_fatwa]    = 'fatwa last fatwa '
+regions[fatwa_search]    = 'fatwa search'
+regions[fatwa_category]    = 'fatwa category'
+regions[fatwa_recent]    = 'fatwa recent'
+regions[fatwa_most_watched]    = 'fatwa latest'
+regions[fatwa_form]    = 'fatwa form'
+regions[share_icons]    = 'share icons'
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+; stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/bootstrap-rtl.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = cust/colors.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+; 
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+scripts[] = 'js/bootstrap_3.3.5_js_bootstrap.js'
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.
+
+
+
+settings[facebook] = "#"
+settings[twitter] = "#"
+settings[youtube] = "#"

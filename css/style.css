@@ -1,0 +1,2308 @@
+#admin-menu {
+    box-shadow: none;
+} 
+@font-face {
+    font-family: sam;
+    src: url('../fonts/samir-khouaja-maghribi-bold.ttf');
+}
+
+@font-face {
+    font-family: myr;
+    src: url('../fonts/MyriadArabic-Regular.otf');
+}
+
+html{
+    direction: rtl;   
+}
+
+body {
+    background: url('../cust/top_frame.png'), url('../img/html_bg.png');
+    background-position: left top, left top;
+    background-repeat: repeat-x, repeat;
+    margin-top: 6px;
+    font-family: myr;
+    font-size: 19px;
+    color: #4d4d4d;
+    padding-top: 0px !important;
+}
+body a {
+    font-family: myr;
+    color: #c03a2b;
+    font-size: 21px;
+    text-decoration: none !important;
+}
+body p {
+    font-family: myr !important;
+    color: #4d4d4d;
+    font-size: 19px;
+    text-align: justify;
+}
+
+body h2 {
+    font-family: myr;
+}
+
+.block-title {
+    color: #c03a2b;
+    font-family: sam;
+}
+body h3 {
+    font-family: myr;
+    color: #c03a2b;
+    font-weight: bold;
+    font-size: 19px;  
+    margin-bottom: 0px;
+}
+
+
+body ul li {
+    list-style-image: url(../cust/menu_list.gif) !important;
+}
+
+body.front .main-container ul li {
+    list-style-image: url(../cust/menu_list_big.gif) !important;
+}
+
+
+
+body ol li > li:before {
+    color: #c03a2b;
+}
+body ol li {
+    color: #4d4d4d;
+}
+
+body.toolbar-drawer {
+    padding-top: 26px;
+}
+
+h1 {
+    font-family: sam;
+    font-size: 50px;
+}
+.page-header {
+    color: #333;
+    // width: 100%;
+    display: block;
+}
+
+.fixed-header {
+    position: fixed !important;
+    top: 0px;
+    z-index: 99;
+    width: 100% !important;
+    box-shadow: 0 0px 7px #999 !important;
+}
+.row { margin-left: 0 !important; margin-right: 0 !important; }
+
+.main-container {
+    background: #fff;
+    padding-top: 40px !important;
+    padding-bottom: 70px !important;
+    border-right: 1px #f0f0f0 solid;
+    border-left:  1px #f0f0f0 solid;
+}
+.container {
+    padding: 0px 55px
+}
+.responsive { max-width: 100%; }
+
+
+.region-search {
+	float: right;
+	width: 60%;
+	
+}
+
+.search-social {
+    padding: 0px !important;
+}
+.social_icons {
+    width: 40%;
+    float: right;
+}
+.social_icons  ul{
+    margin: 0px;
+    margin-top: 9px;
+    padding: 0px;
+}
+
+.social_icons  li {
+    list-style-image: none !important;
+    float: right;
+    color: #ffffff !important;
+    list-style: none !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social_icons  li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/social_icons.jpg) no-repeat;
+    text-indent: -9999px;
+    margin-left: 1px !important;
+}
+.social_icons  li:first-child {
+    margin: 0px;
+}
+.social_icons .facebook_icon {
+    background-position: -67px 1px;
+}
+
+.addthis_sharing_toolbox {
+	margin: 20px 0;
+}
+
+/*.social_icons .facebook_icon:hover {
+    background-position: 86px 25px;
+}*/
+.social_icons .twitter_icon {
+    background-position: -35px 1px;;
+}
+/*.social_icons .twitter:hover {
+
+    background-position: 2px 25px;
+}*/
+.social_icons .youtube_icon {
+    background-position:0px 1px;
+}
+/*.social_icons .youtube_icon:hover {
+    background-position: 58px 77px;
+}*/
+
+
+/*----search----*/
+
+#page-header .input-group-btn {
+    display: none;
+}
+
+.region-search .views-exposed-form .views-exposed-widget {
+    padding: 0px;
+    width: 100%;
+}
+.form-control {
+    font-size: 19px !important;    
+}
+.region-search .form-control {
+    background: url(../img/heeder_search.png) no-repeat, #e8ecec;
+    background-position:10px center,center;
+    border-radius: 15px !important;
+    display: block;
+    color: #262626;
+    margin: 5px 0px;
+    border: 0px;
+    box-shadow: none;
+    padding: 0px 10px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.region-search .form-control {
+    margin: 5px 0px;
+    margin-left: 10px;
+    width: 98%;
+    float: left;
+}
+#edit-submit-advanced-search{
+    display: none;
+
+}
+/* .front .region-search .views-exposed-form .views-exposed-widget {
+    padding: 0px;
+    width: 70%;
+} */
+
+.search-mobile {
+    display: none;
+}
+
+
+/*----header-----*/
+
+#page-header {
+    box-shadow: 0 2px 8px #ededed;
+    position: relative;
+}
+
+/*Home page*/
+
+.home_header {
+    background-color: #fff;
+    position: relative;
+    z-index: 99;
+}
+
+.home_header .articale .block-title {
+    font-family: myr;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.home_header .articale {
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+#page-header {
+    background: #fff;
+    /*    padding-bottom: 10px;*/
+    padding-top: 10px;
+}
+
+.site_logo {
+/*    height: 220px; */
+    margin-top: 45px;
+    float: right;
+    display: block;
+}
+
+.site_logo a{
+    display: block;
+}
+.site_logo a img{
+    max-width: 100%;
+}
+.articale {
+    float: right;
+    text-align: right;
+    padding-right: 0px;
+}
+.articale .view-article-of-the-month{
+    /*    margin-right: 15px;*/
+}
+.articale h3 {
+    color: #c0392b; 
+    margin-top: 0px !important;
+    font-family: sam;
+    font-size: 26px;
+
+}
+.article_body {
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.article_body p{
+    font-family:myr !important;
+    font-size: 19px !important;
+}
+.article_link_mobile {
+    display: none;
+}
+
+.home_img {
+background: url('../cust/Home_header_img.jpg') no-repeat center;
+height: 400px;
+margin-top: 30px !important;
+background-size: auto 100%;
+}
+
+.qoute p {
+    color: #000;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    text-align: justify;
+}
+
+.qoute-link p {
+    color: #808080;
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+}
+
+.qoute-link a {
+    color: #808080;
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+}
+
+.front .main-container .block-title {
+    margin-bottom: 20px;
+}
+#block-views-home-latest-articles-block {
+    margin-bottom: 50px;
+}
+.front .article_title a { 
+    color: #262626 !important;
+}
+
+
+.view-featured-fatwas {
+    margin-bottom: 50px;
+}
+
+.question_btn{
+    background: #2a2a2a;
+    display: block;
+    border-radius: 14px;
+    width: 245px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    line-height: 6px;
+    border: 0;
+    font-size: 21px;
+}
+
+.fatw_question_btn{
+    background: #c03a2b;
+    display: block;
+    border-radius: 14px;
+    width: 245px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    line-height: 6px;
+    border: 0;
+    font-size: 21px;
+    margin-top: 50px;
+}
+
+/*fatwa modal*/
+/*.modal-dialog {
+    width: 70%;
+} */
+#block-entityform-block-fatwa-question {
+    margin: 0 15px;
+    font-size: 19px !important;
+}
+#block-entityform-block-fatwa-question .block-title{
+
+    margin: 35px 0px;
+}
+#block-entityform-block-fatwa-question label,.btn{
+    font-size: 19px !important;
+}
+.cke_editable{
+    background: #fff !important;
+    padding: 10px;
+
+}
+.entitytype-fatwa_question-form {
+    font-size: 19px !important;
+}
+.entitytype-fatwa_question-form  .form-control {
+    width: 30%;
+}
+
+.ckeditor_links {
+    display: none !important;
+}
+#edit-field-user-question-und-0-format {
+    display: none;
+}
+#edit-submit {
+    background: #c0392b;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+    width: 145px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    line-height: 20px;
+    border: 0;
+    font-size: 21px;
+}
+
+
+.fatawi_img img {
+    width: 100%;
+}
+
+
+.view-featured-audio {
+    margin-bottom: 50px;
+}
+
+.aodio-row h3 a{
+    color: #262626;
+    line-height: 60px;
+}
+.aodio-row h3 {
+    display: inline;
+}
+
+.aodio-row .audio_link{
+    background: url(../img/audio_icon_black.png)no-repeat center center;
+    height: 23px;
+    width: 24px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: -7px;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.aodio-row .audio_link:hover  {
+	opacity: 1;
+}
+
+	
+.aodio-row .active{
+    opacity:1;
+
+}
+
+#timeleft_f {
+    font-size: 150px;
+    color: #999;
+    line-height: 100px;
+    display: block;
+    width: 100%;
+}
+#audio-player_f {
+    width: 389px;
+    height: 47px;
+}
+
+
+
+
+#block-views-featured-audiovideo-wrap {
+    margin-bottom: 50px;
+}
+
+.view-featured-audiovideo .video-item {
+    margin-top: 0px;
+}
+.view-featured-audiovideo .video-item .video_title {
+    margin-top: 0px;
+}
+
+.video_title a{
+    color: #262626 !important
+}
+.front .video-item .thumb_link {
+    margin-bottom: 12px !important;
+}
+
+.featured-video .posted {
+    color: #999;
+    font-size: 17px;
+}
+.featured-video .posted a{
+    color: #999;
+    font-size: 17px;
+}
+
+.featured-video img {
+    width: 100%;
+}
+
+.article_category {
+    font-size: 17px;
+    color: #999;
+}
+.article_category a{
+    color: #999;
+    font-size: 17px;
+}
+
+
+.featured_fatwas .fatwa_category {
+    font-size: 17px;
+    color: #999;
+}
+.featured_fatwas .fatwa_category a{
+    font-size: 17px;
+    color: #999;
+}
+
+
+/*---page---*/
+
+.sub_header h2 {
+    background: url(../cust/series_arrow.png) no-repeat left;
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #262626;
+    font-family: myr;
+}
+
+.sub_header {
+    background: url(../img/sub_header.png);
+}
+.sub_header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#block-views-444-block {
+    margin: 5px 0;
+}
+.sub_header li {
+    display: block;
+    float: right;
+    margin: 0px 0px !important;
+    white-space: nowrap;
+    padding: 0;
+}
+.sub_header li:first-child {
+    list-style-image: none !important;
+    list-style: none;
+}
+.sub_header li a{
+    color: #999;
+    line-height: 100%;
+    font-family: myr !important;
+    font-size: 16px;
+    padding: 0px 21px;
+    border-left: 1px solid #D00800;
+}
+
+.page_logo {
+    background: #fff;
+    width:100%;
+    position: relative;
+    z-index: 99;
+}
+
+.page_logo img {
+    margin: 15px 0px;
+}
+.region-header .menu  {
+    margin: 10px 0px;
+    padding: 0px;
+
+}
+.region-header .menu  .nav {
+
+}
+.region-header .menu li {
+    float: right;
+    margin: 0px 2px;
+    padding: 0px;
+    list-style: none !important;
+}
+.region-header .menu li .active-trail {
+    color: #c03a2b;    
+}
+
+.region-header .menu li a {
+    background: url(../img/main_menu.gif) no-repeat right;
+    display: inline;
+    padding: 0px;
+    padding-right: 13px !important;
+    color: #262626;
+    font-size: 20px;
+    font-family:myr !important;
+    text-decoration: none;
+}
+
+.region-header .menu li:first-child a {
+    background: none;
+    padding-right: 0px !important;
+}
+
+.front_page_menu .region-header .menu li a {
+    color: #262626 !important;
+    font-family:myr !important;
+    text-decoration: none;
+}
+
+/*----video page-----*/
+
+
+.subheader-serie .active {
+    color: #c03a2b
+}
+
+.node-type-videoaudio .page-header{
+    display: none;
+}
+
+.tab-pane {
+
+}
+.video_thumb {
+    position: absolute;
+    display: none;
+}
+
+iframe {
+    width: 100%;
+}
+
+.tab-content button {
+    display: none;
+}
+.video_player {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.video_player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*video bar*/
+
+.vidoe_bar {
+    background: url(../img/video_bar_bg.png) no-repeat center;
+    width: 100%;
+    height: 40px;
+}
+
+.vidoe_bar .nav-tabs {
+    float: right;
+    margin-right: 5px;
+}
+.vidoe_bar li {
+    float: right;
+}
+
+#timeleft {
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 200px;
+    color: #999;
+    width: 100%;
+    display: block;
+}
+#progressBar { 
+    border:1px solid #aaa; 
+    color:#fff; 
+    width:295px; 
+    height:30px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#progress {
+    border:1px solid #aaa; 
+    color:#fff; 
+    width:295px; 
+    height:30px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#buffered {
+    border:1px solid #aaa; 
+    color:#fff; 
+    width:295px; 
+    height:30px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#info {
+    width: 295px;
+}
+
+
+.nav-tabs>li a {
+    color: #262626 !important;
+    background-color: #a9a9a9 !important;
+    border: 0px !important;
+    font-size: 21px;
+    line-height: 22px;
+    padding: 3px 5px;
+    margin: 0px 2px;
+    border-bottom-right-radius: 3px;  
+    border-bottom-left-radius: 3px;
+    font-family:myr !important;
+    text-decoration: none;
+
+}
+.nav-tabs>li.active>a {
+    color: #333333 !important;
+    background-color: #fff !important;
+    border: 0px !important;
+    border-bottom-color: transparent !important;
+    font-family:myr !important;
+    text-decoration: none;
+
+}
+
+.video_list li{
+    float: left;
+    list-style: none !important;
+}
+
+.video_list a {
+    width: 100px;
+    display: block;
+    margin-top: 7px;
+    margin-left: 5px;
+    padding: 3px 14px;
+    color: #fff;
+    background: #2e2e2e;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family:myr !important;
+    text-decoration: none;
+    text-align: center;
+}
+.the_index .field-collection-view {
+    border: none;
+}
+
+.the_index .field-collection-container {
+    border: none;
+}
+
+.scroll {
+    overflow-y: auto;
+    max-height: 425px;
+
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #c03a2b;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #c03a2b;
+}
+
+
+.the_index h3 {
+    color: #c03a2b;
+    font-size: 21px !important;
+    font-family: sam;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.the_index ul {
+    list-style: none !important;
+    padding: 0px;
+    margin: 0px;
+}
+.the_index li {
+    list-style: none !important;
+    padding: 0px;
+    margin: 0px;
+}
+.the_index button {
+    background-color: #fff;
+    border: 0px;
+    width: 174px;
+    text-align: right;
+    font-family:myr !important;
+    font-size: 16px !important;
+    line-height: 100%;
+    border: none !important;
+    outline: none;
+}
+.active_btn {
+    color: #c03a2b !important;
+    border: none !important;
+}
+.the_index .field-collection-view {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+.field-collection-view {
+    padding: 0px
+}
+.the_index .field-collection-container {
+    border: none;
+}
+
+.the_index span {
+    display: inline;
+    color: #c03a2b;
+    width: 30%;
+    font-family:myr !important;
+    font-size: 19px !important;
+}
+.the_index p {
+    display: inline;
+    font-family:myr !important;
+    font-size: 19px !important;
+}
+
+.video_title {
+    font-size: 21px;
+    font-family:myr !important;
+    color: #262626 !important;
+    font-weight: normal;
+}
+
+.description p{
+    font-size: 19px;
+    text-align: justify;
+    color: #999;
+    font-family:myr !important;
+}
+
+.video_details h3 {
+    font-size: 21px; 
+    font-family: sam;
+    color: #c03a2b !important;
+}
+.video_details ul { 
+    padding: 0px;
+    margin-top: 24px;
+    margin-right: 17px;
+}
+
+.video_details li {
+    list-style-image: url(../cust/menu_list.gif) !important;
+    margin-bottom: 5px;
+    font-family:myr !important;
+    font-size: 19px !important;
+}
+.video_details li .lab{
+    font-weight: bold;
+    width: 52px;
+    display: inline-block;
+    font-family:myr !important;
+    font-size: 19px !important;
+}
+.video_details li .dep{
+    margin-right: 4px;
+}
+.video_details li .tag{
+    display: inline-block;
+    padding: 0px 7px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 17.5px !important;
+    font-family: myr !important;
+    float: right;
+    margin: 3px 4px;
+}
+.tag_list {
+    padding: 0px !important;
+    margin-top: 2px !important;
+    margin-right: 2px !important ;
+}
+
+#sub_content h2 {
+    font-family: sam;
+    color: #c03a2b;
+    margin-bottom: 7px;
+}
+
+#sub_content p {
+    text-align: center;
+}
+#sub_content a {
+    color: #262626;
+    font-size: 21px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family:myr !important;
+    text-decoration: none;
+}
+
+.video_series {
+    margin-top: 8px;
+    background: url(../img/series_list_split.png) no-repeat right center;
+}
+.video_series .scroll{
+    height: 200px;
+}
+
+.video_series .s_title {
+    font-family: sam !important;
+    font-size: 21px !important;
+    color: #c03a2b;
+    text-align: right;
+    margin-top: 8px;
+}
+.video_series ul {
+    margin: 0px;
+    margin-top: 24px;
+    padding-right:0px;
+}
+.video_series li {
+	list-style-image: url(../cust/menu_list.gif) !important;
+	margin: 9px 0 !important;
+	font-size: 21px;
+	display: list-item;
+	list-style-position: inside;
+	line-height: 100%;
+}
+.video_series .active-trail {
+    background: url(../img/series_active_video.png) top right no-repeat, #f5f5f5;
+    list-style: none;
+    list-style-image: none !important;
+    margin-right: -5px;
+
+}
+.video_series .active-trail a {
+    margin-right: 45px;
+    background: none;
+    color: #c03a2b;
+    font-weight: bold;
+    font-family:myr !important;
+    font-size: 21px !important;
+    text-decoration: none;
+}
+
+.video_series a {
+	color: #262626;
+	text-decoration: none;
+	display: inline-block;
+	text-align: right;
+	font-family: myr !important;
+	font-size: 18px !important;
+	line-height: 100%;
+	text-decoration: none;
+}
+.video_series .all_series {
+    background: #c03a2b;
+    border-radius: 5px;
+    display: block;
+    height: 26px;
+    width: 144px;
+    text-align: center;
+    line-height: 26px !important;
+    color: #ffffff !important;
+    margin: 13px auto;
+    font-size: 19px;
+}
+
+.nav > li > a {
+	position: relative;
+	display: inline;
+	padding: 5px;
+	line-height: normal;
+}
+
+#block-views-related-posts-block-1 {
+    margin-top: 50px;
+}
+
+/*-----Series Section-----*/
+
+.page-header {
+    border-bottom: 0px;
+    background: #fff;
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.page-header-bg {
+    background: url(../img/sbt_bg.png) repeat-x 0px 34%;
+}
+.cat_title a{
+    font-family: sam;
+    color: #333;
+    font-size: 30px;
+    font-weight:normal !important;
+    margin-top: 40px;
+    display: block;
+}
+
+.series_thumb a {
+    border-radius: 100px !important;
+    padding-left: 0px;
+    display: block;
+    overflow: hidden;
+    margin-left: 7px;
+    font-family:myr !important;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 194px;
+    margin: auto;
+}
+.serie_title{
+    text-align: center;
+}
+
+.video-item {
+    margin-top: 10px;
+    clear: both;
+}
+.video-item .thumb_link {
+    position: relative;
+    border-radius: 54px !important;
+    width: 65px !important;
+    height: 62px !important;
+    float: right;
+    padding-left: 10px;
+    display: block;
+    overflow: hidden;
+    margin-left: 7px;
+    font-family:myr !important;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+#block-views-related-posts-block a, .view-display-id-featured .thumb_link{
+    padding:0px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.view-id-serie_inside .video-item .thumb_link, .view-id-categories_taxonomy .video-item .thumb_link{
+    margin-bottom: 76px;
+}
+
+.video-item .circle_thumb {
+    height: 62px !important;
+    margin-right: -20px;
+}
+
+.thumb_b_bg {
+    position: absolute;
+    top:0px;
+    background: url(../img/thumb_b_bg.png);
+    width: 65px;
+    height:  62px;
+}
+.video_icon{
+    margin: auto;
+    background: url(../img/videio_icon.png) no-repeat center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+.audio_icon {
+    margin: auto;
+    background: url(../cust/audio_icon.png) no-repeat center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#block-views-related-posts-block .thumb_b_bg,.view-display-id-featured .thumb_b_bg{
+    width: 100%;
+    height: 100%;
+}
+#block-views-related-posts-block .video_icon,.view-display-id-featured .video_icon{
+    width: 100%;
+    height: 100%;
+    width: 27px;
+    height: 17px;
+    position: absolute;
+    top: 46%;
+    right: 46%;
+}
+.audio_icon {
+    margin: auto;
+    background: url(../img/audio_icon.png) no-repeat center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#block-views-related-posts-block .thumb_b_bg{
+    width: 100%;
+    height: 100%;
+}
+#block-views-related-posts-block .video_icon{
+    width: 100%;
+    height: 100%;
+    width: 27px;
+    height: 17px;
+    position: absolute;
+    top: 46%;
+    right: 46%;
+}
+#block-views-related-posts-block .audio_icon {
+    width: 100%;
+    height: 100%;
+    width: 27px;
+    height: 17px;
+    position: absolute;
+    top: 46%;
+    right: 46%;
+}
+.video-item .video_title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.video-item .video_title a{
+    color: #262626 !important;
+    display: block;
+    padding-top: 10px;
+    font-size: 21px;
+    font-family:myr !important;
+    font-weight:normal !important;
+    text-align: right;
+}
+.video-item p {
+    color: #999;
+    font-size: 17px;
+}
+.video-item .posted  {
+    color: #999;
+    font-size: 17px;
+    font-family:myr !important;
+}
+.video-item .posted  a{
+    color: #999;
+    font-size: 17px;
+}
+.posted  {
+    color: #999;
+    font-size: 17px;
+    font-family:myr !important;
+}
+.posted  a{
+    color: #999;
+    font-size: 17px;
+}
+
+
+.view-serie-inside .video-item  thumb_link {
+    padding-top: 10px;
+}
+
+.view-video-cat-items  {
+    min-height: 244px;
+}
+.readmore_bg {
+    background: url(../img/readmore_bg-.png) repeat-x center;
+    background-size: 2px;
+    width: 40%;
+    margin: auto;
+}
+.readmore_icon {
+    background: #c03a2b;
+    border-radius: 40px;
+    color: #fff;
+    display: block;
+    height: 25px;
+    line-height: 26px;
+    margin: 25px auto auto;
+    padding-left: 1px;
+    text-align: center;
+    width: 26px;
+}
+
+.readmore_icon:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.pagination li a {
+    background: #fff !important;
+    color: #a0a0a0 !important;
+    border: 1px #e8e8e8 solid;
+    margin-left: 5px;
+    font-family:myr !important;
+    text-decoration: none;
+}
+.pagination .active a {
+    background: #c0c0c0 !important;
+    color: #fff !important;
+    border: 0px;
+    font-family:myr !important;
+    text-decoration: none;
+}
+
+
+/*---books page---*/
+.book4c {
+    padding: 0px;
+}
+.view-books .col {
+    padding-right: 0px !important;
+}
+.view-books img {
+    margin: 0 0 50px 18px;
+    border: 1px solid #cccccc;
+    padding: 4px;
+}
+
+.book8c {
+    padding-left: 0px;
+}
+
+.view-books h3{
+    margin: 0px;
+    margin-bottom: 9px;
+    font-size: 26px;
+    color: #262626;
+    line-height: 26px;
+    font-family: myr;
+}
+
+.book_info {
+    width: 100%;
+    height: 35px;
+}
+
+.view-books .publisher{
+    float: right;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #cccccc;
+}
+.view-books .publish_year {
+    float: right;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #cccccc;
+    line-height: 10px;
+}
+
+.view-books span {
+    float: right;
+    font-size: 16px;
+    color: #808080 !important;
+    line-height: 10px;
+}
+.view-books .lable{
+    color: #c03a2b !important; 
+    font-weight: bold;
+}
+.view-books .download a {
+    font-size: 17px !important;
+    color: #c03a2b !important;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.view-books p {
+    font-size: 19px;
+    line-height: 24px;
+    text-align: justify;
+}
+/*---Articles---*/
+
+
+.view-article-listing .article_title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.article_title a{
+    font-family:myr !important;
+    color: #c03a2b !important;
+    font-size: 30px;
+}
+.view-article-listing .posted_date {
+    font-family:myr !important;
+    font-size: 17px;
+    color: #999;
+}
+.view-article-listing p {
+    font-family:myr !important;
+    font-size: 19px;
+    margin-top: 15px;
+    text-align: justify;   
+}
+
+
+/*---Articles inside---*/
+
+.node-type-article h1 {
+    font-family: myr !important;
+    font-size: 34px;
+    color: #c03a2b
+}
+.node-type-article .page-header-bg {
+    background: #fff;
+
+}
+#block-views-related-articles-block {
+    margin-bottom: 30px;
+}
+.node-type-article .page-header {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.related_article_title{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+/*---fatwas---*/
+
+.fatawi-categories {
+    min-height: 160px;
+}
+
+.page-node-23 .page-header {
+    display: none;
+}
+.fatwa_top {
+    border: 1px solid #ededed;
+    padding:0px;
+    padding-right: 10px;
+    margin-right: 20px;
+    min-height: 330px;
+}
+
+.region-fatwa-search  .block-title,.region-last-fatwa .block-title, .fatawi_dep .block-title {
+    font-size: 21px;
+    color: #262626 !important;
+    font-weight: bold;
+    font-family: myr;
+}
+.region-fatwa-search .form-control{
+    width: 85%;
+    border-radius: 10px;
+    background: url(../img/fatwa_search_bg.png) no-repeat;
+    background-position:6px, center center;
+    padding: 0px 5px;
+    margin-right: 5px;
+    font-size: 21px;
+    box-shadow: none;
+}
+.region-fatwa-search .btn{
+    display: none !important;
+}
+.a_featured_fatwa {
+    text-align: right !important;
+}
+.a_featured_fatwa a {
+    font-size: 40px;
+    color: #262626;
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: right !important;
+}
+.fatwa_top_bg {
+    height: 4px;
+    width: 40%;
+    background: #c03a2b;
+    margin: -2.5px auto;
+}
+
+.fatawi_dep .fatwa_cat_item {
+    padding-right: 12px;
+    margin-bottom: 0px;
+    margin-right: 7px;
+}
+.fatawi_dep .fatwa_cat_item li {
+    float: right;
+    width: 33.33%;
+    list-style: none;
+    list-style-image: none;
+}
+.fatawi_dep .fatwa_cat_item li a{
+    color: #999;
+    font-size: 17px;
+}
+.view-id-featured_fatwa_inside {
+    background: url(../img/series_list_split.png) no-repeat bottom right;
+    padding-right: 10px;
+}
+.last_fatwa {
+    // background: url(../img/series_list_split.png) no-repeat bottom right;
+}
+
+.fatawi_body {
+    margin: 60px 0px;
+}
+.fatawi_body .block-title{
+    color: #c03a2b;
+    font-family: sam;
+}
+.fatwa_title a, .related_article_title a{
+    color: #262626 !important;
+    margin-top: 24px; subheader-serie;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.fatwa_title {
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.fatwas_info {
+    color: #999;
+    font-size: 16px;
+}
+.fatwas_info a{
+    font-size: 16px;
+    color: #999;
+}
+
+
+.view-categories-taxonomy {
+    margin-top: 30px;
+}
+.ftw_question_tease{
+    color: #262626;
+    font-size: 17px;
+}
+
+.ftw_category ,.ftw_category a{
+    color: #999 !important;
+    font-size: 17px !important;
+
+}
+/*----Fatwa inside page---*/
+
+.node-type-fatwa h1 {
+    font-family: myr !important;
+    font-size: 34px;
+}
+
+.node-type-fatwa .page-header-bg {
+    background: #fff;
+}
+.node-type-fatwa .col-sm-11 {
+    padding: 0px;
+}
+
+.ftw_question {
+    background: #fafafa;
+    background-size:3px 3px, cover;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+}
+.ftw_question .field .field-label{
+    color: #c03a2b;
+    font-size: 19px;
+}
+.ftw_question_bg {
+    height: 4px;
+    width: 40%;
+    background: #c03a2b;
+    margin: -2.5px auto;
+}
+
+.ftw_answer {
+    margin-top: 40px;
+}
+.answer_lable p {
+    margin: 0px !important;
+    color: #c03a2b;
+    font-size: 19px;
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+.ftw_answer p{
+    margin: 0px !important;
+    margin-top:10px;
+}
+
+.ftw_answer ol {
+    padding: 0px;
+    margin-right: 25px !important;
+    margin: 8px 0px;
+}
+.ftw_answer ol li ul {
+    margin: 8px 0px;
+}
+
+.questionred_btn {
+    background: #c03a2b;
+    display: block;
+    border-radius: 5px;
+    width: 245px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    line-height: 20px;
+    border: 0;
+    font-size: 21px;
+}
+
+.node-type-fatwa .block-title {
+    font-family: myr;
+}
+.node-type-fatwa #block-views-recent-fatawi-block-3,#block-views-recent-fatawi-block-2 {
+    margin-top: 40px;
+}
+/*-----research page------*/
+
+.rdocument-wrap-row {
+    border-bottom: 1px solid #e5e5e5;
+    padding-top:10px;
+}
+.research-title p {
+    font-size: 17px;
+    color: #999
+}
+.research-file a{
+    width: 120px;
+    background: #c03a2b;
+    display: block;
+    text-align: center;
+    line-height: 26px !important;
+    color: #fff !important;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.research-title a {
+    width: auto !important;
+    background: none !important;
+    display: block;
+    text-align: right !important;
+    line-height: 26px !important;
+    color: #262626 !important;
+    border: 0px !important;
+}
+
+/*---footer---*/
+footer {
+    background: url('../cust/books_bg.png');
+    position: relative;
+}
+
+.books {
+    width: 100%;
+}
+
+.carousel-control{
+    top: 40%;
+    width: 0px;
+}
+.carousel-inner {
+    margin:60px 0px;
+}
+
+.carousel-control .icon-next {
+    display: none;
+}
+.carousel-control .icon-prev {
+    display: none;
+}
+.carousel-control.right {
+    background: url(../img/footer_books_arrow_r.png) no-repeat;
+    height: 54px;
+    width: 23px;
+    display: block;
+}
+.carousel-control.left {
+    background: url(../img/footer_books_arrow_l.png) no-repeat;
+    height: 54px;
+    width: 23px;
+    display: block;
+}
+
+
+.book_img img {
+    box-shadow: -1px 4px 5px 5px #962d21;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.book_text {
+    color: #fff;
+    margin-right: 20px;
+}
+.book_text h3{
+    text-align: right;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: sam !important;
+    color: #fff;
+}
+.book_text p {
+    text-align: justify;
+    font-size: 17px  !important;
+    line-height: 30px;
+    margin-right: 20px;
+    color: #fff;
+    font-family:myr !important;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.sub_footer {
+    background: url(../cust/footer_bg.png);
+    min-height: 40px;
+}
+.sub_footer p {
+    margin: auto; 
+    color: #fff;
+    font-size: 16px;
+    font-family:myr !important;
+    line-height: 46px;
+    text-align: right;
+}
+.copyright a {
+    text-decoration: none !important;
+    color: #fff;
+    font-family:myr !important;
+    font-size: 16px;
+}
+.partner_sites {
+    line-height: 46px;
+    color: #fff;
+    font-size: 17px;
+    float: left;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.footer_logo {
+    background: url('../img/logo.png')no-repeat;
+    height: 40px;
+    background-position-y: 50%;
+    width: 91px;
+    float: left;
+    display: block;
+}
+
+
+
+
+
+/*-----SEARCH PAGE-----*/
+
+.page-search-page .page_title a {
+    color: #262626;
+}
+.page-search-page .thumb_link {
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.view-advanced-search .row {
+    margin-bottom: 20px;
+}
+
+
+.maxmenuwidth {
+	max-width: 1300px;
+	margin: auto;
+}
+
+.mobile_month_art {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+.featured_articles .views-field-body, .featured_fatwas .field-content {
+	color: #777;
+	margin: 15px 5px;
+	line-height: 150%;
+}
+
+
+
+
+
+
+/*----VC----*/
+.page-node-11 .vc_image {
+    width: 100%
+}
+.page-node-11 .cv_info {
+    margin: 40px 0px;
+}
+.page-node-11 .cv_info li {
+    list-style-image: none !important;
+    list-style: none;
+    border-bottom: 1px #f0f0f0 solid; 
+    line-height: 37px;
+}
+.page-node-11 .info_lable {
+    color: #262626;
+    font-weight: bold;
+    width: 107px;
+    display: inline-block;
+}
+
+.statistics_counter {
+    display: none !important;
+}
+
+
+
+/*share*/
+.region-share-icons {
+    margin-bottom: 10px;;
+}
+.region-share-icons img {
+    width: 20px;
+}
+/*.addthis_32x32_style .at300bs {
+    background: url(../img/social_icons.jpg) no-repeat !important;
+    text-indent: -9999px;
+    margin-left: 1px !important;
+}
+
+a.at-svc-twitter, a.at-svc-facebook, a.at-svc-google_plusone_share {
+    background: #fff !important;
+}*/
+
+
+
+
+div #audio-player {
+    display: block;
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    background: #fff;
+    background: -webkit-linear-gradient(bottom, #fff 0%, #fff 100%)!important;
+    background: -moz-linear-gradient(top, #fff 0%, #fff 100%)!important;
+    background: -o-linear-gradient(top, #fff 0%, #fff 100%)!important;
+    background: -ms-linear-gradient(top, #fff 100%, #fff 100%)!important;
+    background: linear-gradient(top, #fff 0%, #fff 100%)!important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+#play {
+    background-position: 30px 30px;
+}
+
+
+audio::-webkit-media-controls-timeline {
+    -webkit-appearance: media-slider;
+    display: flex;
+    flex: 1 1 auto;
+    height: 8px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+    background-color: #c03a2b transparnt;
+    min-width: 25px;
+    border: initial;
+    color: #fff;}
+
+audio-player::-moz-media-controls-timeline {
+    -webkit-appearance: media-slider;
+    display: flex;
+    flex: 1 1 auto;
+    height: 8px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+    background-color: #c03a2b !important;
+    min-width: 25px;
+    border: initial;
+    color: #fff;
+}
+
+
+audio:input[type="range" i] {
+    color: rgb(196, 196, 196);
+}
+audio-player::-webkit-media-controls {
+    -webkit-appearance: media-slider;
+    display: flex;
+    flex: 1 1 auto;
+    height: 8px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+    background-color: #fff !important;
+    min-width: 25px;
+    border: initial;
+    color: #c03a2b !important;
+}
+
+/* Toolbar Fix */
+#toolbar {
+    box-shadow: none;
+    top: auto;
+    bottom: 0 !important;
+}
+
+#toolbar ul li {
+    list-style: none !important;
+}
+
+#toolbar ul li a {
+    font-size: 16px;
+}
+
+.copyright p a {
+	color: #aaa;
+}
+
+.copyright p {
+	margin-left: 10px;
+}
+
+
+
+
+
+/* OTHER */
+
+.mansh {
+    border-right: 4px solid #eee;
+    border-spacing: initial;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+
+.fatawi_img img {
+    margin-top: 50px;
+}
+
+.featured_articles ul li, ul.featured_fatwas li {
+    line-height: 20px;
+}
+
+.front .view-id-featured_fatwas .view-footer {
+	margin-top: 50px;
+}
+
+
+
+
+
+@media (max-width: 1200px) 
+{
+    .home_img {
+        background-size: 100%;
+        margin-top: 0px;
+    }
+    .qoute p{
+        font-size: 30px !important;
+        line-height: 45px !important;
+    }
+    #timeleft_f {
+        font-size: 124px;
+    }
+    #audio-player_f {
+        width: 320px;
+    }
+
+    .book_img img {
+        width: 140px;
+        height: 211px;
+    }
+
+    .a_featured_fatwa a {
+        font-size: 24px;
+    }
+    .book4c img {
+        width:95%;
+        height: 75%;
+    }
+    .tab-pane {
+        min-height: 357px;
+    }
+    .region-search {
+	    width: 55%;
+    }
+    .social_icons {
+	    width: 45%;
+    }
+    #page-header {
+	    border-top: 1px solid #f5f5f5;
+	    background: #FFF;
+    }
+    
+}
+
+@media (max-width: 992px) 
+{
+    .page-taxonomy-term .thumb_link ,.video-item .thumb_link {
+        width: 50% !important;
+    }
+    .view-serie-inside .video-item img, .page-taxonomy-term .video-item img {
+        
+    }
+    .qoute p{
+        font-size: 22px !important;
+        line-height: 38px !important;
+    }
+    .video-item .thumb_link {
+        width: 60px !important;
+    }
+    .home_img {
+        height: 393px;
+    }
+    .site_logo {
+        height: 119px;
+    }
+    #timeleft_f,#timeleft {
+        font-size: 94px;
+    }
+    #audio-player_f,#audio-player {
+        width: 239px;
+    }
+
+    .region-search .form-control {
+        margin-top:12px !important;
+        width: 100% !important;
+    }
+    .front .region-search .views-exposed-form .views-exposed-widget {
+        width: 93%;
+    }
+    .social_icons {
+        float: left;
+    }
+    .social_icons ul {
+        margin-top: 10px;
+    }
+    .book_img img {
+        width: 117px;
+        height: 157px;
+    }
+
+    #block-views-home-latest-articles-block {
+        margin-bottom: 16px;
+    }
+    .view-featured-audiovideo {
+        margin-bottom: 16px;
+    }
+    .the_index {
+        padding-right: 0px;
+        padding-right: 0px;
+    }
+    .the_index h3 {
+        font-size: 18px !important;
+    }
+
+    .the_index button {
+        width: 131px;
+        font-size: 17px !important;
+    }
+    .video_list a {
+        width: auto;
+        font-size: 15px;
+    }
+    .nav-tabs>li a {
+        font-size: 15px
+    }
+    .tab-pane {
+        min-height: 264px;
+    }
+    .video_list a {
+        padding: 3px 10px;
+    } 
+    .video_series ul {
+        padding-right: 12px;
+    } 
+    .video_series a {
+        font-size: 18px !important;
+    }
+    .video_series .active-trail a {
+        font-size: 18px !important;
+    } 
+    .video_series .all_series {
+        width: 96px;
+        text-align: center;
+        margin: 17px auto
+    } 
+    .video_details h3 {
+        font-size: 18px;
+    }
+    .social_icons {
+	    width: 20%;
+    }
+    .region-search {
+	    width: 80%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .home_img {
+        background-size:auto;
+    }
+    .thumb_b_bg {
+	    background: none !important;
+    }
+    .container {
+        padding: 0px 15px !important;
+    }
+    .footer {
+        display: none;
+    }
+    .home_img {
+        height: 463px;
+    }
+    .site_logo {
+        margin-top: 0px;
+        height: 212px;
+    }
+    .fixed-header {
+        position: relative !important;
+        top: auto; 
+        z-index: 0; 
+        width: auto !important; 
+        box-shadow: 0 0px 7px #999 !important;
+    }
+    .front .view-research {
+        display: none;
+    }
+    #block-views-research-block-1 {
+        display: none;
+    }
+    .navbar-toggle {
+        background: url(../img/menu_icon.png) no-repeat;
+        height: 30px;
+        width: 17px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .search-mobile {
+        margin: 0px;
+        padding: 0px;
+        margin-right: 18px;
+    }
+    .search-mobile li {
+        list-style-image: none !important;
+        list-style: none;
+    }
+    .search-mobile a {
+        background: url(../img/main_menu.gif) no-repeat right;
+        display: inline;
+        padding: 0px;
+        padding-right: 13px !important;
+        color: #262626;
+    }
+    .region-header .menu {
+        margin-bottom: 0px !important; 
+    }
+    .region-header .menu li {
+        float: none;
+    }
+    .search-mobile {
+        display: block;
+    }
+    #edit-search-api-views-fulltext {
+        /*display: none;*/
+        width: 100%;
+        float: right;
+    }
+
+    .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .region-search {
+        width: 100%;
+    }
+
+    .entitytype-fatwa_question-form .form-control {
+        width: 52%;
+    } 
+    .region-header .menu li:first-child a {
+        background: url(../img/main_menu.gif) no-repeat right;
+        padding-right: 13px !important;
+    }
+    .page-header-bg {
+        margin-top: 10px !important;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+
+    .view-books img {
+        margin: 24px 0 22px 18px;
+    }
+
+    .readmore_bg{
+        margin-bottom: 10px;
+    }
+    .article_item a {
+        display: block;
+        margin-top: 20px;
+
+    }
+    .article_item p {
+        margin-top: 5px;
+
+    }
+    .read_more{
+        display: inline !important;
+        margin-top: auto !important;
+    }
+
+    .region-last-fatwa{
+        display: none;
+    }
+
+    .fatawi_dep .fatwa_cat_item li {
+        width: 50%;
+    } 
+    .questionred_btn {
+        margin-top: 50px;
+    }
+    .rdocument_title a {
+        display: block;
+        padding-left: 150px;
+    } 
+    .book4c img {
+        width:auto;
+        height: auto;
+    }
+    .video_list {
+        display: none;
+    }
+    .tab-pane {
+        min-height: 393px;
+    }
+    .partner_sites {
+	    display: none;
+    }
+    .copyright {
+	    margin: 10px 0;
+    }
+    .search-social {
+	    /*display: none;*/;
+    }
+    .social_icons {
+        width: 100%;
+        padding: 15px;
+        padding-top: 0;
+    }
+    
+}
+
+
+
+@media (max-width: 600px) {
+    .site_logo {
+        margin-top: 0px;
+        height: 139px;
+    }
+    .tab-pane {
+        min-height:60px;;
+    } 
+    .vidoe_bar {
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .home_img {
+        background-size: auto 100%;
+        height: 382px;
+        margin-top: 25px;
+    }
+    .site_logo {
+    }
+    .article_link_mobile { 
+		background: #c03a2b;
+		display: inline;
+		border-radius: 5px;
+		width: 80%;
+		color: #fff;
+		text-decoration: none;
+		margin: 0;
+		line-height: inherit;
+		border: 0;
+		font-size: 21px;
+		text-align: center;
+		padding: 5px 60px;
+    }
+    .article_link_mobile:hover {
+		color: #000;
+		background: #999;
+	} 
+    .articale h2 {
+        display: none;
+    }
+    .articale {
+	    float: none;
+    }
+    .view-id-article_of_the_month p{
+        display: none;
+    }
+
+    .qoute {
+        display: none;
+    }
+    .fatawi_img {
+        display: none;
+    }
+
+    #audio-player_f {
+        display: none;
+    }
+    #timeleft_f {
+        display: none;
+    }
+    .audio_link {
+        display: none !important;
+    }
+    .entitytype-fatwa_question-form .form-control {
+        width: 70%;
+    }
+    .entitytype-fatwa_question-form .form-group {
+        width: 100%;
+    }
+    #block-entityform-block-fatwa-question .block-title {
+        font-size: 21px;
+    }
+    .video {
+        padding: 0px;
+    }
+    .tab-pane .audio {
+        padding-top: 30px;
+    }
+    .audio-player {
+        width: 270px;
+    }
+    #timeleft {
+        font-size: 86px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .site_logo {
+        height: 101px;
+    }
+    .home_img {
+        height: 300px;
+        margin-top: 10px;
+    } 
+    .fatawi_dep .fatwa_cat_item li a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 330px) {
+
+    .site_logo {
+        height: 101px;
+    }
+    .home_img {
+        height: 170px;
+        margin-top: 10px;
+    }
+}
+
+#block-bookoblock-book-outline .active {
+    color: #333;
+    text-decoration: underline !important;
+}
+
+#block-bookoblock-book-outline li a {
+	padding: 1px 0;
+	font-size: 18px;
+	border-bottom: 1px solid #eee;    
+}
+
+#block-bookoblock-book-outline li {
+	list-style: square;
+}
+
+.vc_image {
+	max-width: 100%;
+}
