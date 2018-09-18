@@ -121,12 +121,13 @@
             <?php print render($page['home_left_side']); ?>
           
 
-            <a class="fatawi_img" href="<?php print url("node/23"); ?>"><?php
-                $address = '' . base_path() . drupal_get_path('theme',$GLOBALS['theme']) . '/cust/Home_fatawi_img.png';
-                global $base_root;
-                echo '<img src="' . $base_root . $address . '">';
-                ?>
-            </a>
+            <!-- <a class="fatawi_img" href="<?php print url("node/23"); ?>"> -->
+            	<?php //
+                // $address = '' . base_path() . drupal_get_path('theme',$GLOBALS['theme']) . '/cust/Home_fatawi_img.png';
+                // global $base_root;
+                // echo '<img src="' . $base_root . $address . '">';
+                // ?>
+            <!-- </a> -->
 
         </div>
     </div>
